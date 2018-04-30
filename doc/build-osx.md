@@ -44,8 +44,8 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/PIVX-Project/PIVX.git
-        cd PIVX
+        git clone https://github.com/DARKCOIN-Project/DARKCOIN.git
+        cd DARKCOIN
 
 2.  Build pivxd:
 
@@ -92,7 +92,7 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the PIVX-Qt.app
+Once dependencies are compiled, see release-process.md for how the DARKCOIN-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
@@ -104,14 +104,14 @@ directory. We have to first create the RPC configuration file, though.
 Run `./pivxd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=pivxrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
+    echo -e "rpcuser=pivxrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/DARKCOIN/pivx.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/DARKCOIN/pivx.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/PIVX/debug.log
+    tail -f $HOME/Library/Application\ Support/DARKCOIN/debug.log
 
 Other commands:
 -------

@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="PIVSupply">
+    <widget class="QLabel" name="DRKSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="PIVDemand">
+    <widget class="QLabel" name="DRKDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyPIV">
+    <widget class="QPushButton" name="BuyDRK">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy PIV</string>
+      <string>Buy DRK</string>
      </property>
      <property name="icon">
       <iconset resource="../pivx.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>PIV</string>
+      <string>DRK</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>PIV</string>
+      <string>DRK</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputPIV">
+    <widget class="QLineEdit" name="UnitsInputDRK">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellPIVBTN">
+    <widget class="QPushButton" name="SellDRKBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell PIV</string>
+      <string>Sell DRK</string>
      </property>
      <property name="icon">
       <iconset resource="../pivx">
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>PIV Available:</string>
+         <string>DRK Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="PIVAvailableLabel">
+       <widget class="QLabel" name="DRKAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelPIV">
+       <widget class="QLabel" name="labelDRK">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>PIV</string>
+         <string>DRK</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="PIVBalanceLabel">
+    <widget class="QLabel" name="DRKBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>PIV Balance:</string>
+      <string>DRK Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="PIVAvailableLabel_2">
+    <widget class="QLabel" name="DRKAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>PIV Available:</string>
+      <string>DRK Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>PIV Pending:</string>
+      <string>DRK Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="PIVPendingLabel">
+    <widget class="QLabel" name="DRKPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex PIV Deposit Address:</string>
+      <string>Bittrex DRK Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate Pivx Deposit Address</string>
+      <string>Generate Darkcoin Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../pivx.qrc">
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertPivx">
+     <widget class="QPushButton" name="btnConvertDarkcoin">
       <property name="geometry">
        <rect>
         <x>260</x>

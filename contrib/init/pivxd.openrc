@@ -16,8 +16,8 @@ BITCOIND_USER=${BITCOIND_USER:-pivx}
 BITCOIND_GROUP=${BITCOIND_GROUP:-pivx}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/pivxd}
 
-name="PIVX Core Daemon"
-description="PIVX crypto-currency p2p network daemon"
+name="DARKCOIN Core Daemon"
+description="DARKCOIN crypto-currency p2p network daemon"
 
 command="/usr/bin/pivxd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Pivx Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Darkcoin Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

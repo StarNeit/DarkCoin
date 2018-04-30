@@ -22,9 +22,8 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/StarNeit/DarkCoin.git"
-  "dir": "DarkCoin"
-  "commit": "v3.0.6"
+- "url": "https://github.com/pivx-project/pivx.git"
+  "dir": "pivx"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -102,7 +101,7 @@ script: |
   create_per-host_linker_wrapper "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd DarkCoin
+  cd pivx
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do

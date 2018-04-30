@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "PIVX"
-            VALUE "FileDescription",    "pivxd (OSS daemon/client for Pivx)"
+            VALUE "CompanyName",        "DARKCOIN"
+            VALUE "FileDescription",    "pivxd (OSS daemon/client for Darkcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "pivxd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
