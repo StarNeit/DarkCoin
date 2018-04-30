@@ -28,8 +28,9 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/pivx-project/pivx.git"
-  "dir": "pivx"
+- "url": "https://github.com/StarNeit/DarkCoin.git"
+  "dir": "DarkCoin"
+  "commit": "v3.0.6"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 script: |
@@ -83,7 +84,7 @@ script: |
   create_per-host_faketime_wrappers "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd pivx
+  cd DarkCoin
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
